@@ -361,8 +361,6 @@
   align-items:  center;
   border: 2px solid var(--dark);
 }
-  
-
 .client__card span{
   color: var(--green);
   font-size: 3rem;
@@ -380,6 +378,64 @@
    border:20rem;
 }
 
+/* PROJECT */
+.project{
+  padding: 5rem 0;
+}
+.project__title{
+  text-align: center;
+} 
+.project__title h3{
+  font-size: 5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.project__title p{
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+.project__wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+}
+.project__card{
+  background-color: transparent;
+    background-image:url(img/the1.jpg);
+    filter: brightness(60%);
+    padding-top: 20rem;
+    border-radius:1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70rem;
+}
+.project__card span{
+  color: var(--green);
+  font-size: 3rem;
+}
+.project__card h4{
+  font-size: 2.5rem;
+  color: var(--black);
+  margin-bottom: 1.5rem;
+}
+.project__card p{
+  font-weight: 300;
+  max-width: 20rem;
+  margin-bottom: 2rem;
+}
+.project__card img{
+   width: 80rem;
+   border:20rem;
+}
+.project__card a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--light);
+}
 /* REPEATABLE PATTERNS */
   :root{
     --green:#7d9a68;
@@ -400,4 +456,5 @@
   border-color: var(--light);
   border:1px solid var(--dark);
   color: var(--dark);
+  font-text:var(--light);
 }
